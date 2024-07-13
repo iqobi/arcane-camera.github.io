@@ -47,7 +47,8 @@ h1 img {
   vertical-align: calc(var(--unit) / 4 / 4 * -1);
 }
 
-span.secondary {
+span.secondary,
+span.secondary a {
   font-size: calc(var(--unit) * 0.5);
 }
 
