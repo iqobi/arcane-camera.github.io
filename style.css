@@ -50,3 +50,15 @@ h1 img {
 span.secondary {
   font-size: calc(var(--unit) * 0.5);
 }
+
+span.arcane {
+  background: linear-gradient(
+    -45deg,
+    #ef9138 0%,
+    #ea4f41 25%,
+    #b05cbf 50%,
+    #59abde 75%
+  );
+  background-clip: text;
+  color: transparent;
+}
