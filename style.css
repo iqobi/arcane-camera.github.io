@@ -62,3 +62,8 @@ span.arcane {
   background-clip: text;
   color: transparent;
 }
+
+body > img {
+  width: 100%;
+  cursor: pointer;
+}

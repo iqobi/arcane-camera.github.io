@@ -26,9 +26,26 @@
       </li>
       <li>🔜 <span class="disabled">Download for iPhone</span></li>
     </ul>
+    <img src="b&w.png" id="hero" />
     <span class="secondary"
       >Made with ❤️ in🗽·
       <a href="privacy.html">Privacy Policy & Support</a></span
     >
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const hero = document.getElementById("hero");
+      if (hero) {
+        console.log(hero);
+        const handleClick = (e) => {
+          if (e.currentTarget.src.includes("color")) {
+            hero.src = "b&w.png";
+          } else {
+            hero.src = "color.png";
+          }
+        };
+        hero.addEventListener("click", handleClick);
+      }
+    });
+  </script>
 </html>
