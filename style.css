@@ -19,7 +19,6 @@ html {
   line-height: calc(var(--unit) * 1.25);
   font-weight: bold;
   list-style: none;
-  user-select: none;
 }
 
 ul {
@@ -67,4 +66,5 @@ span.arcane {
 body > img {
   width: 100%;
   cursor: pointer;
+  user-select: none;
 }
